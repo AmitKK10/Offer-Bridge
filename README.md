@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🚀 Offer Bridge – Smart Discount & Escrow Platform
 
 Offer Bridge is a **full-stack MERN platform** that securely connects **users who don’t have credit cards** with **credit card holders**, enabling them to access card-based discounts through an **admin-controlled escrow system**.
@@ -323,4 +323,4 @@ Razorpay test credentials supported
 Fake order IDs & OTPs allowed in test mode
 
 No real money involved during testing
->>>>>>> c40feae86e30f723e722024de8f2103198d80d35
+
