@@ -122,14 +122,24 @@ Funds are **locked in escrow** and released **only after successful delivery con
 ### 🛡️ Admin Login
 > ⚠️ Admin account cannot be created from UI.
 
-Email: admin@gmail.com
+Email: admin@offerbridge.com
 
 Password: 1234
 
 
 ### 🧑‍💼 Merchant / 🧑‍💻 Customer
 - Can be created directly from the application UI using Register option.
+  Use This Customer , Merchant ID Already Create for Demo
 
+Merchant ::
+  Email: merchant@offerbridge.com
+
+Password: 1234
+
+Customer::
+Email: customer@offerbridge.com
+
+Password: 1234
 ---
 
 ## ⚙️ Run Locally
