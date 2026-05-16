@@ -16,7 +16,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://127.0.0.1:5173",
-      "https://offer-bridge.vercel.app"
+      "https://offer-bridge.onrender.com"
     ],
     credentials: true
   })
