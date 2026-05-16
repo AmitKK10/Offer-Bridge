@@ -8,14 +8,36 @@ import paymentRoutes from "./routes/paymentRoutes.js";
 
 const app = express();
 
-app.use(cors());
+/* ===============================
+   CORS CONFIG
+================================ */
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "http://127.0.0.1:5173",
+      "https://offer-bridge.vercel.app"
+    ],
+    credentials: true
+  })
+);
+
+/* ===============================
+   MIDDLEWARE
+================================ */
 app.use(express.json());
 
+/* ===============================
+   ROUTES
+================================ */
 app.use("/api/auth", authRoutes);
 app.use("/api/deals", dealRoutes);
 app.use("/api/payments", paymentRoutes);
 app.use("/api/test", testRoutes);
 
+/* ===============================
+   HEALTH CHECK
+================================ */
 app.get("/", (req, res) => {
   res.send("🚀 Offer Bridge API is running");
 });
